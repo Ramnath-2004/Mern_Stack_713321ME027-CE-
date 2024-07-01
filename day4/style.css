@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color:cadetblue;
+    color: whitesmoke;
+    padding: 15px;
+    
+}
+li,h1,ul{
+    display: inline;
+    margin-left: 60px;
+    padding: 3px;
+}
+ul{
+    margin-left:60%;
+    
+}
+li:hover{
+    color:gray;
+    cursor: pointer;
+}
+/* end of nav bar */
+
+div{
+    display: inline-block;
+   
+}
+.table{
+    margin: 150px;
+    
+}
+#style{
+    font-size: medium;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
