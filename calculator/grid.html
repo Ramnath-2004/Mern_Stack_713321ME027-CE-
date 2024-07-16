@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calci.css">
+</head>
+
+<body>
+    <section>
+        <h1>Calculator</h1>
+        <div class="parent">
+            
+            <div class="body">
+                <input onclick="display" id="screen" type="text" placeholder="0">
+                <button class="cl" onclick="clearScreen()">AC</button>
+                <button class="cl" onclick="clr()"> C</button>
+                <button class="cl">%</button>
+                <button class="cl" onclick="appendtoScreen('/')">/</button>
+                <button onclick="appendtoScreen('7')">7</button>
+                <button onclick="appendtoScreen('8')">8</button>
+                <button onclick="appendtoScreen('9')">9</button>
+                <button class="cl" onclick="appendtoScreen('*')">x</button>
+                <button onclick="appendtoScreen('4')">4</button>
+                <button onclick="appendtoScreen('5')">5</button>
+                <button onclick="appendtoScreen('6')">6</button>
+                <button class="cl" onclick="appendtoScreen('-')">-</button>
+                <button onclick="appendtoScreen('1')">1</button>
+                <button onclick="appendtoScreen('2')">2</button>
+                <button onclick="appendtoScreen('3')">3</button>
+                <button class="cl" onclick="appendtoScreen('+')">+</button>
+                <button class="ty" onclick="appendtoScreen('0')">0</button>
+                <button onclick="appendtoScreen('.')">.</button>
+                <button class="cl" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </section>
+    <script src="/calci.js"></script>
+</body>
+
+</html>
